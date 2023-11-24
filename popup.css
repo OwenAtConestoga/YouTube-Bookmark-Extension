@@ -1,0 +1,64 @@
+/* Container class */
+.container {
+    width: 280px;
+    color: #314d3e;
+   }
+   
+   /* Title class */
+   .title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+   }
+   
+   /* Textbox class */
+   .textbox {
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    padding: 0px 2px;
+   }
+   
+   /* Textbox focus state */
+   .textbox:focus {
+    outline: 0;
+    border-color: #66afe9;
+   }
+   
+   /* Bookmarks class */
+   .bookmarks {
+    margin: 5px 5px;
+    padding: 3px;
+   }
+   
+   /* Bookmark class */
+   .bookmark {
+    display: flex;
+    border-bottom-color: #00254d;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-radius: 0.8rem;
+    padding: 3px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+   }
+   
+   /* Bookmark title class */
+   .bookmark-title {
+    padding-left: 2px;
+   }
+   
+   /* Bookmark controls image class */
+   .bookmark-controls img {
+    margin: 0 4px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+   }
+   
+   /* Bookmark controls class */
+   .bookmark-controls {
+    flex: auto;
+    text-align: right;
+   }
+   
